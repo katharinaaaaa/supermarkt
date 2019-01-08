@@ -1,0 +1,83 @@
+@charset "ISO-8859-1";
+
+
+table, tbody, tr, th, td {
+    vertical-align: middle !important;
+    text-align: center !important;
+}
+
+h1{
+	font-size: 18px;
+	color: blue;
+	font-weight: 600;
+}
+
+h1, .h1 {
+    font-size: 36px !important;
+    margin-bottom: 18px !important;
+}
+
+.container {
+    height: 60px;
+    padding-top: 5px;
+}
+
+a.navbar-brand.brand {
+    font-size: 2em;
+    padding: 15px;
+}
+
+ul.nav.navbar-nav.navbar-right {
+    font-size: 18px;
+}
+
+div#navbar-collapse-02 {
+    font-size: 16px;
+    float: right;
+}
+
+.navbar-default .navbar-nav > li > a{
+	font-size: 16px;
+	float: center;
+}
+
+.form-control-borderless {
+    border: none;
+}
+
+.form-control-borderless:hover, .form-control-borderless:active, .form-control-borderless:focus {
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+
+.navbar-header.searchbar {
+    padding-top: 8px;
+    float:right;
+}
+
+button.btn.btn-lg.btn-success {
+    font-size: 14px;
+    padding: 7px;
+    margin-left: 10px;
+}
+
+.row.submenu {
+    background-color: deepskyblue;
+}
+
+ul.nav.navbar-nav.submenu li a {
+    color: white;
+}
+
+ul.nav.navbar-nav.submenu li a:hover, ul.nav.navbar-nav.submenu li a:focus{
+    text-decoration: none;
+    background-color: #337ab7 !important;
+    font-size: 1.2em;
+}
+
+.summe-label{
+	text-align: right !important;
+	padding-right: 5px;
+}
+
